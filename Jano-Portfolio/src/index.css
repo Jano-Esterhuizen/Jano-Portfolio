@@ -12,7 +12,7 @@ body {
 }
 
 .material-symbols-rounded {
-  @apply @apply w-[1em] h-[1em] overflow-hidden;
+  @apply w-[1em] h-[1em] overflow-hidden;
 
   font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 24;
   
