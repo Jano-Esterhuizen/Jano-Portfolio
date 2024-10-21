@@ -38,20 +38,17 @@ const ProjectCard = ({
                 </div>
 
                 <div className="w-11 h-11 rounded-lg grid place-items-center bg-emerald-400 text-zinc-950 shrink-0">
-                    <span
-                        className='material-symbols-outlined'
-                        aria-hidden="true"
-                    >
+                    <span className='material-symbols-rounded' aria-hidden="true">
                         arrow_outward
                     </span>
                 </div>
 
             </div>
 
-            <a 
-            href={projectLink}
-            target='_blank'
-            className="absolute inset-0"></a>
+            <a
+                href={projectLink}
+                target='_blank'
+                className="absolute inset-0"></a>
         </div>
     )
 }
