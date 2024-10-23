@@ -3,10 +3,10 @@ import ProjectCard from './ProjectCard';
 
 const works = [
     {
-      imgSrc: '/images/project-1.jpg',
-      title: 'Full stack music app',
-      tags: ['API', 'MVC', 'Development'],
-      projectLink: 'https://musify-5al0.onrender.com/'
+      imgSrc: '/images/NotesApp.png',
+      title: 'Notes App',
+      tags: ['API', 'JWT', 'DataBase'],
+      projectLink: 'https://github.com/Jano-Esterhuizen/To-Do-App'
     },
     // {
     //   imgSrc: '/images/project-2.jpg',
