@@ -16,7 +16,7 @@ const Header = () => {
                         className='logo'
                     >
                         <img
-                            src="/images/logo.svg"
+                            src="/images/JELogo.png"
                             width={40}
                             height={40}
                             alt="Jano Esterhuizen"

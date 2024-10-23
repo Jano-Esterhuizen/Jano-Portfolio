@@ -3,11 +3,11 @@ import React from 'react'
 const aboutItems = [
     {
         label: 'Project done',
-        number: 45
+        number: 2
     },
     {
         label: 'Years of experience',
-        number: 10
+        number: 1
     }
 ];
 
@@ -22,7 +22,7 @@ const About = () => {
                 <div className='bg-zinc-800/50 p-7 rounded-2xl md:p-12 reveal-up'>
                     <p className='text-zinc-300 mb-4 md:mb-8 md:text-lg md:max-w-[60ch]'>
 
-                        Welcome! I&apos;m Henry, a professional web developer with a knack for crafting visually stunning and highly functional websites. Combining creativity and technical expertise. I transform your vision into digital masterpiece that excels in both appearance and performance.
+                        Welcome! I&apos;m Jano, a dedicated student pursuing an Honors degree in Computer Science and working as a Junior Software Engineer. Driven by learning and a passion for Software, Web Development and  AI, I aim to make a positive impact through innovative software solutions. I have a solid foundation in computer science principles and programming languages, excelling in problem-solving and collaborative environments. With a deep understanding of software development practices, I am eager to contribute to cutting-edge projects.
                     </p>
 
                     <div className='flex flex-wrap items-center gap-4 md:gap-7'>
@@ -39,7 +39,7 @@ const About = () => {
                         }
 
                         <img 
-                        src="/images/logo.svg" 
+                        src="/images/JELogo.png" 
                         alt="Logo" 
                         width={30}
                         height={30}

@@ -3,19 +3,19 @@ import SkillCard from './SkillCard';
 
 const skillItem = [
     {
-        imgSrc: '/images/figma.svg',
-        label: 'Figma',
-        desc: 'Design tool'
+        imgSrc: '/images/javascript.svg',
+        label: 'JavaScript',
+        desc: 'Interaction'
+    },
+    {
+        imgSrc: '/images/python.png',
+        label: 'Python',
+        desc: 'Programming language'
     },
     {
         imgSrc: '/images/css3.svg',
         label: 'CSS',
         desc: 'User Interface'
-    },
-    {
-        imgSrc: '/images/javascript.svg',
-        label: 'JavaScript',
-        desc: 'Interaction'
     },
     {
         imgSrc: '/images/nodejs.svg',
@@ -25,7 +25,12 @@ const skillItem = [
     {
         imgSrc: '/images/expressjs.svg',
         label: 'ExpressJS',
-        desc: 'Node Framework'
+        desc: 'JavaScript Web Framework'
+    },
+    {
+        imgSrc: '/images/flask.png',
+        label: 'Flask',
+        desc: 'Python Web Framework'
     },
     {
         imgSrc: '/images/mongodb.svg',

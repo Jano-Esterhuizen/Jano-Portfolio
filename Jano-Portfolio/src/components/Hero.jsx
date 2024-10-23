@@ -10,7 +10,7 @@ const Hero = () => {
                 <div>
                     <div className='flex items-center gap-3'>
                         <figure className='img-box w-9 h-9 rounded-lg'>
-                            <img src="/images/avatar-1.jpg" width={40} height={40} alt="Jano image" className='img-cover' />
+                            <img src="/images/Jano.jpg" width={40} height={40} alt="Jano image" className='img-cover' />
                         </figure>
 
                         <div className='flex items-center gap-1.5 text-zinc-400 text-sm tracking-wide'>
@@ -18,12 +18,12 @@ const Hero = () => {
                                 <span className='absolute inset-0 w-2 h-2 rounded-full bg-emerald-400 animate-ping'></span>
                             </span>
 
-                            Available for work
+                            Software Engineer
                         </div>
                     </div>
 
                     <h2 className='headline-1 max-w-0[15ch] sm:max-w-[20ch] lg:max-w-[15ch] mt-5 mb-8 lg:mb-10'>
-                        Building Scalable Modern Websites for the Future
+                        Building Scalable Modern Software for the Future
                     </h2>
 
                     <div className='flex items-center gap-3'>
