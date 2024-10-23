@@ -1,9 +1,10 @@
-import React from 'react'
+import {React, useState} from 'react'
 
 import { ButtonPrimary, ButtonOutline } from './Button'
 
 
 const Hero = () => {
+
     return (
         <section id='home' className='pt-28 lg:pt36'>
             <div className='container lg:grid lg:grid-cols-2 items-center lg:gap-10'>
@@ -28,8 +29,12 @@ const Hero = () => {
 
                     <div className='flex items-center gap-3'>
                         <ButtonPrimary
+                            href="/images/JanoResumePortfolio.pdf"
                             label="Download CV"
                             icon="download"
+                            
+                            download="JanoResumePortfolio.pdf" 
+                            
                         />
 
                         <ButtonOutline
@@ -43,7 +48,7 @@ const Hero = () => {
 
                 <div className='hidden lg:block'>
                     <figure className='w-full max-w-[480px] ml-auto bg-gradient-to-t from-emerald-600 via-15% via-sky-40/40 to-65% rounded-[60px] overflow-hidden'>
-                        <img src="/images/hero-banner.png" width={656} height={800} alt="Jano image 2" className='' />
+                        <img src="/images/Hero-Banner.png" width={656} height={800} alt="Jano image 2" className='' />
                     </figure>
                 </div>
 
