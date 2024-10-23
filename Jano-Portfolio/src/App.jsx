@@ -12,9 +12,11 @@ import Review from "./components/Review"
 import Skill from "./components/Skill"
 import Work from "./components/Work"
 
+import {ReactLenis} from "lenis/react"
+
 const App = () => {
   return (
-    <>
+    <ReactLenis root>
       
       <Header />
       <main>
@@ -26,7 +28,7 @@ const App = () => {
         <Contact/>
         <Footer/>
       </main>
-    </>
+    </ReactLenis>
   )
 }
 
