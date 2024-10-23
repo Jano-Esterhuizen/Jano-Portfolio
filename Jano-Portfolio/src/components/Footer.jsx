@@ -54,8 +54,8 @@ const Footer = () => {
         <div className="container">
 
             <div className='lg:grid lg:grid-cols-2 '>
-                <div className='mb-10'>
-                    <h2 className="headline-1 mb-8 lg:max-w-[12ch]">
+                <div className='mb-10 reveal-up'>
+                    <h2 className="headline-1 mb-8 lg:max-w-[12ch] reveal-up">
                     Let&apos;s work together today!
                     </h2>
 
@@ -63,13 +63,14 @@ const Footer = () => {
                     href="mailto:esterhuizenjano@gmail.com"
                     label="Get in touch"
                     icon="chevron_right"
+                    classes="reveal-up"
                     />
                 </div>
 
                 <div className='grid grid-cols-2 gap-4 lg:pl-20'>
 
                     <div>
-                        <p className='mb-2'>
+                        <p className='mb-2 reveal-up'>
                             Sitemap
                         </p>
 
@@ -78,7 +79,7 @@ const Footer = () => {
                                 <li key={key}>
                                     <a 
                                     href={href}
-                                    className='block text-sm text-zinc-400 py-1 transition-colors hover:text-zinc-200'
+                                    className='block text-sm text-zinc-400 py-1 transition-colors hover:text-zinc-200 reveal-up'
                                     >
                                         {label}
                                     </a>
@@ -88,7 +89,7 @@ const Footer = () => {
                     </div>
 
                     <div>
-                        <p className='mb-2'>
+                        <p className='mb-2 reveal-up'>
                             Socials
                         </p>
 
@@ -98,7 +99,7 @@ const Footer = () => {
                                     <a 
                                     href={href}
                                     target='_blank'
-                                    className='block text-sm text-zinc-400 py-1 transition-colors hover:text-zinc-200'
+                                    className='block text-sm text-zinc-400 py-1 transition-colors hover:text-zinc-200 reveal-up'
                                     >
                                         {label}
                                     </a>
@@ -112,8 +113,8 @@ const Footer = () => {
 
             <div className="flex items-center justify justify-between pt-10 mb-8">
                 <a 
-                href=""
-                className=''
+                href="/"
+                className='logo reveal-up'
                 >
                     <img 
                     src="/images/logo.svg" 
@@ -123,8 +124,8 @@ const Footer = () => {
                     />
                 </a>
 
-                <p className="text-zinc-500 text-sm">
-                    &copy; 2024 <span className="text-zinc-200">Jano Esterhuizen</span>
+                <p className="text-zinc-500 text-sm reveal-up">
+                    &copy; 2024 <span className="text-zinc-200 ">Jano Esterhuizen</span>
                 </p>
             </div>
         </div>
